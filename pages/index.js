@@ -9,6 +9,7 @@ function Home() {
       </Head>
 
       <main>
+        <h1>index</h1>
       </main>
     </div>
   )
