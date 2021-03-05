@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Content } from '../components/Content'
 import { Placeholder } from '../components/Placeholder'
 
 function Home() {
@@ -11,7 +10,6 @@ function Home() {
       </Head>
 
       <main>
-        {/* <Content /> */}
         <Placeholder />
       </main>
     </div>

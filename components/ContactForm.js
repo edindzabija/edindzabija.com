@@ -57,10 +57,7 @@ const ContactForm = () => {
 
   return (
     <section id='contactForm'>
-      <form
-        onSubmit={handleOnSubmit}
-        className='w-full md:flex-row md:px-16'
-      >
+      <form onSubmit={handleOnSubmit} className='w-full md:flex-row md:px-16'>
         <input
           className='flex-grow w-full h-12 my-2 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline'
           placeholder='Email'
