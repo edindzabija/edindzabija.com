@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import { Content } from '../components/Content'
+import { Placeholder } from '../components/Placeholder'
 
 function Home() {
   return (
@@ -9,7 +11,8 @@ function Home() {
       </Head>
 
       <main>
-        <h1>index</h1>
+        {/* <Content /> */}
+        <Placeholder />
       </main>
     </div>
   )
