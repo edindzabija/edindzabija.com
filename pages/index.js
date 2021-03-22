@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Placeholder } from '../components/Placeholder'
+import { Placeholder } from '@components/Placeholder'
 
 function Home() {
   return (
